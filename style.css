@@ -88,14 +88,16 @@
     @media (max-width:450px) {
         text-align: center;
     }
+
     span {
         color: #D23166;
     }
 
-  
+
 }
 
-.img2, .img3 {
+.img2,
+.img3 {
     @media (max-width:600px) {
         width: 100%;
     }
@@ -136,7 +138,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap:20px;
+    gap: 20px;
+
     @media (max-width:1000px) {
         flex-direction: column;
     }
@@ -146,6 +149,7 @@
 .box3 {
     max-width: 440px;
     width: 100%;
+
     @media (max-width:450px) {
         text-align: center;
     }
@@ -159,10 +163,121 @@
         color: #150101;
         opacity: 0.5;
     }
-   
+
 }
 
 .section3 {
     background-color: #F8EDF0;
     padding: 50px 0;
 }
+
+
+/* SECTION 4 */
+
+
+.section4{
+    padding: 140px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 44px;    
+}
+.menu4 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    p{
+        font-size: 18px;
+        opacity: 0.7;
+        transition: 0.4s;
+        border-bottom: 2px solid transparent;
+        cursor: pointer;
+            &:hover{
+                opacity: 1;
+                border-bottom: 2px solid #D64374;
+            }
+    
+    }
+
+}
+
+
+.wrap4 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+
+    @media (max-width:1000px) {
+        flex-direction: column;
+    }
+}
+.wrap44{
+    @media (max-width:1000px) {
+        flex-direction:  column-reverse;
+        
+    }
+}
+.img4 {
+    width: 100%;
+}
+.box4 {
+    display: flex;flex-direction: column;
+    max-width: 450px;
+    align-items: start;
+
+
+    h2{
+        font-size: 26px;
+    }
+
+    p{
+        font-size: 16px;
+        opacity: 0.7;
+        margin: 10px 0 35px;
+    }
+
+    q{
+        max-width: 600px;
+        margin: 45px 0;
+        font-size: 16px;
+        opacity: 0.8;
+    }
+
+    
+}
+
+.slider4{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.wrap444{
+    .box4{
+        align-items: end;
+        text-align: right;
+    }
+}
+
+.price4 {
+    margin-bottom: 10px;
+    b{
+        font-size: 26px;
+    }
+    s{
+        font-size: 20px;
+        opacity: 0.8;
+    }
+}
+
+.user4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
